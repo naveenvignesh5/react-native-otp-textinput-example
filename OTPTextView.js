@@ -87,10 +87,14 @@ class OTPTextView extends PureComponent {
   };
 
   clear = () => {
-    this.inputs[0].focus();
-    this.setState({
-      otpText: [],
-    });
+    this.setState(
+      {
+        otpText: [],
+      },
+      () => {
+        this.inputs[0].focus();
+      },
+    );
   };
 
   render() {
