@@ -12,7 +12,7 @@
   "dependencies": {
     "react": "16.11.0",
     "react-native": "0.62.2",
-    "react-native-otp-textinput": "file:../react-native-otp-textinput"
+    "react-native-otp-textinput": "git+https://git@github.com/naveenvignesh5/react-native-otp-textinput.git"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
