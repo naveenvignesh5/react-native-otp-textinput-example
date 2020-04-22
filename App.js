@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {StyleSheet, Text, View, Button, Alert, TextInput} from 'react-native';
 
-import OTPTextView from './OTPTextView';
+import OTPTextView from 'react-native-otp-textinput';
 
 const styles = StyleSheet.create({
   container: {
